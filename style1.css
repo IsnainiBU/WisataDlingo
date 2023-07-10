@@ -1,0 +1,68 @@
+#container{
+    width: 700px;
+    height: 1100px;
+    border-style:double;
+    /*background-color: antiquewhite;*/
+    border-color: rgb(3, 43, 43);
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50px;
+}
+#header{
+    width: 100%;
+    height: 200px;
+}
+#nav{
+    width: 670px;
+    height: 20px;
+    background-color: rgba(90, 148, 148, 0.857) ;
+    padding: 15px;
+}
+#menu{
+    width: 170px;
+    height: 790px;
+    background-color: rgba(96, 139, 139, 0.733);
+    float: left;
+    padding: 10px;
+}
+#content{
+    width: 490px;
+    height: 790px;
+    background-color: rgba(100, 139, 139, 0.455);
+    float: left;
+    padding: 10px;
+}
+#footer{
+    width: 680px;
+    height: 20px;
+    background-color: rgba(73, 105, 105, 0.414);
+    clear: both;
+    padding: 10px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+.gambar-kiri{
+    float: left;
+    padding: 5px;
+    padding-right: 10px; 
+}
+.gambar-kanan{
+    float: right;
+    padding: 5px;
+    padding-left: 10px ;
+}
+.borderatas{
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+.borderbawah{
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+.video-kiri{
+    float: left;
+    padding-right: 10px;
+}
+p{
+    font-size: small;
+}
